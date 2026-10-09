@@ -138,4 +138,19 @@
     "description": "Adds support for server provided home screen sections",
     "owner": "IAmParadox27",
     "category": "General",
-    "imageUrl": "
+    "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-home-sections/main/src/logo.png",
+    "versions": [
+      {
+        "version": "3.0.2.0",
+        "changelog": "Fixed issue caused by 3.0.1.0 on JF 12.1.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.2.0/Release-12.1.0.zip",
+        "checksum": "C71A9BBF5456A377F14D9653CA41DB99",
+        "timestamp": "2026-09-15T11:27:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      }
+    ]
+  }
+]
