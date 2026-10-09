@@ -12,8 +12,8 @@
         "version": "2.4.10.1",
         "changelog": "Experimental builds do not have changelogs yet",
         "targetAbi": "12.2.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.10.1/Release-10.10.7.zip",
-        "checksum": "C76262BD65F38E34F6F5CF1FCBCEA82D",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.10.1/Release-10.11.0.zip",
+        "checksum": "6E2474B786AD482C22A96D4411C8E93A",
         "timestamp": "2025-11-04T22:59:32",
         "dependencies": [
           "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
@@ -32,7 +32,7 @@
     "versions": [
       {
         "version": "0.3.1.0",
-        "changelog": "Updated target ABI for Jellyfin 12 compatibility",
+        "changelog": "Patch to make work on 12.1.0 as released on 12.0.1 (which doesn't exist) by accident.",
         "targetAbi": "12.2.0.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.3.1.0/Release-12.1.0.zip",
         "checksum": "3F4464FB4EB11F1D9F48CF6D06460BC2",
@@ -54,7 +54,7 @@
     "versions": [
       {
         "version": "2.3.10.0",
-        "changelog": "Updated target ABI for Jellyfin 12 compatibility",
+        "changelog": "Added support for 10.11.11",
         "targetAbi": "12.2.0.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.10.0/Release-10.11.11.zip",
         "checksum": "601CB02C36E372F542581D8481C96F77",
@@ -69,14 +69,14 @@
     "guid": "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
     "name": "File Transformation",
     "overview": null,
-    "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly.",
+    "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-file-transformation/main/src/logo.png",
     "versions": [
       {
         "version": "3.0.1.0",
-        "changelog": "Add support for Jellyfin 12",
+        "changelog": "Add support for 12.1",
         "targetAbi": "12.2.0.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/3.0.1.0/Release-12.1.0.zip",
         "checksum": "1451642C8DC6F036CB00AA703A9F0834",
@@ -94,59 +94,4 @@
     "description": "Adds a media bar element at the top of the homepage on Jellyfin web",
     "owner": "IAmParadox27 & M0RPH3US",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-media-bar/main/src/logo.png",
-    "versions": [
-      {
-        "version": "3.0.0.0",
-        "changelog": "Media Bar Arrives on Jellyfin 12",
-        "targetAbi": "12.2.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/3.0.0.0/Release-12.1.0.zip",
-        "checksum": "FD60F661B8D1448EB2311240D8044154",
-        "timestamp": "2026-09-15T20:41:11",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      }
-    ]
-  },
-  {
-    "guid": "5b6550fa-a014-4f4c-8a2c-59a43680ac6d",
-    "name": "Plugin Pages",
-    "overview": null,
-    "description": "Adds support for plugins to define their own user settings pages.",
-    "owner": "IAmParadox27",
-    "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-pages/main/src/logo.png",
-    "versions": [
-      {
-        "version": "3.0.1.0",
-        "changelog": "Plugin Pages Ready for Jellyfin 12",
-        "targetAbi": "12.2.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/3.0.1.0/Release-12.1.0.zip",
-        "checksum": "F74C03CED8C78112893E0D31EF4B649E",
-        "timestamp": "2026-09-15T10:18:14",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
-      }
-    ]
-  },
-  {
-    "guid": "b8298e01-2697-407a-b44d-aa8dc795e850",
-    "name": "Home Screen Sections",
-    "overview": null,
-    "description": "Adds support for server provided home screen sections",
-    "owner": "IAmParadox27",
-    "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-home-sections/main/src/logo.png",
-    "versions": [
-      {
-        "version": "3.0.2.0",
-        "changelog": "Home Screen Sections update for Jellyfin 12",
-        "targetAbi": "12.2.0.0",
-        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/3.0.2.0/Release-12.1.0.zip",
-        "checksum": "C71A9BBF5456A377F14D9653CA41DB99",
-        "timestamp": "2026-09-15T11:27:53",
-        "dependencies": [
-          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
-        ]
+    "imageUrl": "
